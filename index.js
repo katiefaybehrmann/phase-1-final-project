@@ -1,3 +1,10 @@
+const genreSelect = document.querySelector("#genres")
+
+genreSelect.addEventListener('change', function (e){
+    e.preventDefault();
+    console.log(e.target.value)
+})
+
 function getClothes(genre){
     fetch(`http://localhost:3000/${genre}`)
       .then((res) => res.json())
