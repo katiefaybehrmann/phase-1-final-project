@@ -15,9 +15,9 @@ function renderClothes(item){
     let card = document.createElement('li')
     card.className = "card"
     card.innerHTML = `
-      <h2>"${item.company}"</h2>
-      <h2>"${item.price}"</h2>
-      <img src="${item.imgage}" class="image-avatar">
+      <h2>${item.company}</h2>
+      <h2>${item.price}</h2>
+      <img src=${item.imgage} class="image-avatar">
       <p>Labor Score: ${item.laborScore}</p>
       <p>Environment Score: ${item.environmentScore}</p>
       `
