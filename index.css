@@ -1,0 +1,38 @@
+#collections {
+    margin: 2rem;
+  }
+
+  body {
+    margin: 10;
+    font-family: monospace;
+    background: #cc9fed; 
+  }
+
+.card {
+    text-align: center;
+    border: grey solid 1px;
+    padding: 1rem;
+    width: 15rem;
+    height: 25rem;
+    display: inline-grid;
+    margin: 1rem 2rem;
+    box-shadow: 3px 4px #eb37f1
+  }
+
+.image-avatar {
+    justify-self: center;
+    height: 12rem;
+    width: auto;
+  }
+
+  button {
+    position: relative;
+    background-color: #ecc149;
+    border: none;
+    border-radius: 5px;
+    height: 2rem;
+    width: max-content;
+    color: whitesmoke;
+    font-size: 18px;
+    justify-self: center;
+  }
