@@ -7,6 +7,21 @@ genreSelect.addEventListener('change', function (e) {
   getClothes(e.target.value)
 })
 
+function buttonMaker(parent, x){
+  let btn = document.createElement("button")
+  btn.innerHTML =`<button class="boo-btn" >BOO!</button>`
+  parent.appendChild(btn)
+
+  btn.addEventListener("click", (e) =>{
+    parent.removeChild(x)
+    parent.removeChild(btn)
+    console.log(e)
+  }
+  
+  )
+}
+
+
 function getClothes(genre) {
   fetch(`http://localhost:3000/${genre}`)
     .then((res) => res.json())
@@ -26,27 +41,27 @@ function renderClothes(item) {
       <img src=${item.imgage} class="image-avatar" height="250" width="250">
       <p class = "labor-score">Labor Score: ${item.laborScore}</p>
       <p class="enviro-score">Environment Score: ${item.environmentScore}</p>
-      <button class="boo-btn" id="${item.id}">BOO!</button>
       `
   itemList.appendChild(card)
-  card.querySelector("button").addEventListener("click", ()=>
-  itemList.removeChild(card))
+  buttonMaker(itemList, card);
+  // card.querySelector("button").addEventListener("click", ()=>
+  // itemList.removeChild(card))
 
-  // card.addEventListener("mouseover", ()=>
-  // card.innerHTML = `${item.information}
-  // <button class="boo-btn" id="${item.id}">BOO!</button>`)
+  card.addEventListener("mouseover", ()=>
+  card.innerHTML = `${item.information}`)
 
-  // card.addEventListener("mouseout", ()=>
-  // card.innerHTML = `
-  // <h2>${item.company}</h2>
-  // <h2>${item.price}</h2>
-  // <img src=${item.imgage} class="image-avatar" height="250" width="250">
-  // <p class = "labor-score">Labor Score: ${item.laborScore}</p>
-  // <p class="enviro-score">Environment Score: ${item.environmentScore}</p>
-  // <button class="boo-btn" id="${item.id}">BOO!</button>`
-  // )
+  card.addEventListener("mouseout", ()=>
+  card.innerHTML = `
+  <h2>${item.company}</h2>
+  <h2>${item.price}</h2>
+  <img src=${item.imgage} class="image-avatar" height="250" width="250">
+  <p class = "labor-score">Labor Score: ${item.laborScore}</p>
+  <p class="enviro-score">Environment Score: ${item.environmentScore}</p>`
+  )
 
  
 }
+
+
 
 
