@@ -15,8 +15,8 @@
             "imgage": "https://i.etsystatic.com/32375637/r/il/ebd11f/4406021066/il_1588xN.4406021066_llal.jpg",
             "price": "$320",
             "laborScore": 5,
-            "environmentScore": 4,
-            "liked": false
+            "environmentScore": 5,
+            "information": "Purchasing from a small, independent designer often ensures that the makers and suppliers receive fair compensation, and you’re supporting their local economies with every purchase. The handcrafted nature and slow production cycle of independent designer jewelry means they’re produced in smaller quantities, which makes them more exclusive. This particular artist uses reused and salvaged materials, thus not creating demand for new materials."
         },
         {
             "id": 3,
@@ -25,16 +25,16 @@
             "price": "$4100",
             "laborScore": 2,
             "environmentScore": 2,
-            "liked": false
+            "information": "Prada uses some eco-friendly materials including recycled materials. There is no evidence it minimises textile waste when manufacturing its products. It complies with its own Restricted Substances List but there is no evidence it has taken meaningful action to eliminate hazardous chemicals. There is no evidence it implements water reduction initiatives. Most of its final stage of production is undertaken in Italy, a medium risk country for labour abuse. There is no evidence it ensures payment of a living wage in its supply chain. It discloses partial policies and safeguards to protect suppliers from the impacts of COVID-19 but not workers."
         },
         {
             "id": 4,
             "company": "Goodwill",
             "imgage": "https://www.goodwillfinds.com/dw/image/v2/BGVZ_PRD/on/demandware.static/-/Sites-goodwill-master/default/dwc98ac108/images/large/lvujwbg4u7hzTNYW8rPm2nS/2022/October/20/1.(3).jpg?q=80&strip=false",
             "price": "$10",
-            "laborScore": 3,
+            "laborScore": 2,
             "environmentScore": 4,
-            "liked": false
+            "information": "Goodwill encourages secondhand purchasing, which reduces the number of natural resources being used, the amount of energy used, and pollution that’s being emitted. When it comes to textiles and clothing, about 50% of energy input to the textile industry is lost onsite. And manufacturing new furniture generates 100 times more greenhouse gases as refinishing does. Buying secondhand goods means you’re not creating a demand for new items that require additional energy or deplete even more natural resources. Goodwill has been known to exploit their workers for minimum wage, however."
         }, 
         {
             "id": 5,
@@ -43,7 +43,7 @@
             "price": "$329",
             "laborScore": 4,
             "environmentScore": 4,
-            "liked": false
+            "information": "Patagonia uses a high proportion of eco-friendly materials including recycled materials. It has conducted research with industry bodies on the impact of microplastics. There is no evidence it has a policy to prevent deforestation in the supply chain. It implements greenhouse gas emissions reduction activities throughout its supply chain to reduce its climate impact. Some of Patagonia's supply chain is certified by FLA Workplace Code of Conduct and Fair Trade USA in the final stage of production. It ensures payment of a living wage in some of the final stage of production. It discloses policies to protect suppliers in its supply chain from the impacts of COVID-19 but not workers."
         }
     ],
     "shoes": [
@@ -54,16 +54,16 @@
             "price": "$35",
             "laborScore": 1,
             "environmentScore": 1,
-            "liked": false
+            "information": "SHEIN uses few eco-friendly materials. There is no evidence that it has taken meaningful action to reduce or eliminate hazardous chemicals. There is no evidence it reduces its carbon and other greenhouse gas emissions in its supply chain. There is no evidence it has a policy to minimise the impacts of microplastics. None of its supply chain is certified by labour standards which ensure worker health and safety, living wages or other labour rights. There is no evidence it ensures payment of a living wage in its supply chain. It does not disclose adequate policies or safeguards to protect suppliers and workers in its supply chain from the impacts of COVID-19."
         },
         {
             "id": 2,
-            "company": "LalLeatherShop on Etsy",
-            "imgage": "https://i.etsystatic.com/33816896/r/il/f9d608/3595455284/il_1588xN.3595455284_64ux.jpg",
-            "price": "$130",
+            "company": "Veja",
+            "imgage": "https://www.veja-store.com/media/catalog/product/cache/527447f8cffec2edb3591f96240a2d24/v/q/vq0702597_1.jpg",
+            "price": "$195",
             "laborScore": 5,
-            "environmentScore": 3,
-            "liked": false
+            "environmentScore": 4,
+            "information": "VEJA uses a medium proportion of eco-friendly materials including organic cotton. It uses recycled packaging. Its tanneries are gold certified by the Leather Working Group. Its use of eco-friendly materials reduces its climate impact and limits the amount of chemicals, water and wastewater used in production. Veja has a Code of Conduct that covers all of the ILO Four Fundamental Freedoms principles. It monitors health and safety issues by visiting all of its final stage of production suppliers. It ensures payment of a living wage in most of its supply chain. It traces all of its supply chain."
         },
         {
             "id": 3,
@@ -72,16 +72,16 @@
             "price": "$1320",
             "laborScore": 2,
             "environmentScore": 2,
-            "liked": false
+            "information": "Prada uses some eco-friendly materials including recycled materials. There is no evidence it minimises textile waste when manufacturing its products. It complies with its own Restricted Substances List but there is no evidence it has taken meaningful action to eliminate hazardous chemicals. There is no evidence it implements water reduction initiatives. Most of its final stage of production is undertaken in Italy, a medium risk country for labour abuse. There is no evidence it ensures payment of a living wage in its supply chain. It discloses partial policies and safeguards to protect suppliers from the impacts of COVID-19 but not workers."
         },
         {
             "id": 4,
             "company": "Goodwill",
             "imgage": "https://www.goodwillfinds.com/dw/image/v2/BGVZ_PRD/on/demandware.static/-/Sites-goodwill-master/default/dwa5be5547/images/large/lPPg89hiI6ikAD1o3qOLol8/2022/November/28/1.(11).jpeg?q=80&strip=false",
             "price": "$30",
-            "laborScore": 3,
+            "laborScore": 2,
             "environmentScore": 4,
-            "liked": false
+            "information": "Goodwill encourages secondhand purchasing, which reduces the number of natural resources being used, the amount of energy used, and pollution that’s being emitted. When it comes to textiles and clothing, about 50% of energy input to the textile industry is lost onsite. And manufacturing new furniture generates 100 times more greenhouse gases as refinishing does. Buying secondhand goods means you’re not creating a demand for new items that require additional energy or deplete even more natural resources. Goodwill has been known to exploit their workers for minimum wage, however."
         }, 
         {
             "id": 5,
@@ -90,7 +90,7 @@
             "price": "$200",
             "laborScore": 2,
             "environmentScore": 2.5,
-            "liked": false
+            "information": "Dr. Martens's uses few eco-friendly materials. There is no evidence it minimises textile waste when manufacturing its products. Its tanneries are audited by the Leather Working Group. There is no evidence it reduces its carbon and other greenhouse gas emissions in its supply chain. Some of its supply chain is certified by Workplace Condition Assessment (WCA) including all of the final stage of production. There is no evidence it ensures payment of a living wage in its supply chain. It discloses partial policies and safeguards to protect suppliers and workers from the impacts of COVID-19."
         }
     ]
 }

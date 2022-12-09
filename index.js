@@ -1,21 +1,24 @@
 const genreSelect = document.querySelector("#genres")
 let itemList = document.querySelector("#item-list")
-let wishList = document.querySelector("#wish-list")
 
-genreSelect.addEventListener('change', function (e) {
-  e.preventDefault();
-  getClothes(e.target.value)
-})
+dropDown()
+
+function dropDown(){
+  genreSelect.addEventListener('change', function (e) {
+    e.preventDefault();
+    getClothes(e.target.value)
+  })
+}
+
 
 function buttonMaker(parent, x){
   let btn = document.createElement("button")
   btn.innerHTML =`<button class="boo-btn" >BOO!</button>`
   parent.appendChild(btn)
 
-  btn.addEventListener("click", (e) =>{
+  btn.addEventListener("click", () =>{
     parent.removeChild(x)
     parent.removeChild(btn)
-    console.log(e)
   }
   
   )
@@ -44,8 +47,6 @@ function renderClothes(item) {
       `
   itemList.appendChild(card)
   buttonMaker(itemList, card);
-  // card.querySelector("button").addEventListener("click", ()=>
-  // itemList.removeChild(card))
 
   card.addEventListener("mouseover", ()=>
   card.innerHTML = `${item.information}`)
