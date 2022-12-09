@@ -31,5 +31,7 @@ function renderClothes(item) {
   card.querySelector("button").addEventListener("click", () => {
     itemList.removeChild(card)
   })
+  card.addEventListener("mouseover", ()=>
+  card.title = "Good On You, 2022")
 }
 
