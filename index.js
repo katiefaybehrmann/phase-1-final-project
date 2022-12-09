@@ -18,6 +18,7 @@ function getClothes(genre) {
 
 function renderClothes(item) {
   let card = document.createElement('li')
+  
   card.className = "card"
   card.innerHTML = `
       <h2>${item.company}</h2>
@@ -28,10 +29,24 @@ function renderClothes(item) {
       <button class="boo-btn" id="${item.id}">BOO!</button>
       `
   itemList.appendChild(card)
-  card.querySelector("button").addEventListener("click", () => {
-    itemList.removeChild(card)
-  })
-  card.addEventListener("mouseover", ()=>
-  card.title = "Good On You, 2022")
+  card.querySelector("button").addEventListener("click", ()=>
+  itemList.removeChild(card))
+
+  // card.addEventListener("mouseover", ()=>
+  // card.innerHTML = `${item.information}
+  // <button class="boo-btn" id="${item.id}">BOO!</button>`)
+
+  // card.addEventListener("mouseout", ()=>
+  // card.innerHTML = `
+  // <h2>${item.company}</h2>
+  // <h2>${item.price}</h2>
+  // <img src=${item.imgage} class="image-avatar" height="250" width="250">
+  // <p class = "labor-score">Labor Score: ${item.laborScore}</p>
+  // <p class="enviro-score">Environment Score: ${item.environmentScore}</p>
+  // <button class="boo-btn" id="${item.id}">BOO!</button>`
+  // )
+
+ 
 }
+
 
