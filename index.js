@@ -1,26 +1,35 @@
 const genreSelect = document.querySelector("#genres")
+let itemList = document.querySelector("#item-list")
+let wishList = document.querySelector("#wish-list")
 
-
-genreSelect.addEventListener('change', function (e){
-    e.preventDefault();
-    getClothes(e.target.value)
+genreSelect.addEventListener('change', function (e) {
+  e.preventDefault();
+  getClothes(e.target.value)
 })
 
-function getClothes(genre){
-    fetch(`http://localhost:3000/${genre}`)
-      .then((res) => res.json())
-      .then((clothingData) => clothingData.forEach(item => renderClothes(item)))
+function getClothes(genre) {
+  fetch(`http://localhost:3000/${genre}`)
+    .then((res) => res.json())
+    .then((clothingData) => clothingData.forEach(item =>
+      renderClothes(item)
+    )
+    )
 }
 
-function renderClothes(item){
-    let card = document.createElement('li')
-    card.className = "card"
-    card.innerHTML = `
+function renderClothes(item) {
+  let card = document.createElement('li')
+  card.className = "card"
+  card.innerHTML = `
       <h2>${item.company}</h2>
       <h2>${item.price}</h2>
       <img src=${item.imgage} class="image-avatar" height="250" width="250">
-      <p>Labor Score: ${item.laborScore}</p>
-      <p>Environment Score: ${item.environmentScore}</p>
+      <p class = "labor-score">Labor Score: ${item.laborScore}</p>
+      <p class="enviro-score">Environment Score: ${item.environmentScore}</p>
+      <button class="boo-btn" id="${item.id}">BOO!</button>
       `
-    document.querySelector("#collections").appendChild(card)
+  itemList.appendChild(card)
+  card.querySelector("button").addEventListener("click", () => {
+    itemList.removeChild(card)
+  })
 }
+
