@@ -15,7 +15,7 @@ function dropDown() {
 function buttonMaker(parent, x) {
   let btn = document.createElement("button")
   let likebtn = document.createElement("button")
-  let btnList = document.createElement("ul")
+  let btnList = document.createElement("span")
   btn.innerHTML = `<button class="boo-btn" >BOO!</button>`
   likebtn.innerHTML = `<button class="boo-btn" >SAVE!</button>`
   parent.appendChild(btnList)
