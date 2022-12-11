@@ -48,7 +48,7 @@
     ],
     "shoes": [
         {
-            "id": 1,
+            "id": 6,
             "company": "Shein",
             "imgage": "https://img.ltwebstatic.com/images3_pi/2022/08/10/1660099224c4436b63dd7474680504da8d4fd15ab6.webp",
             "price": "$35",
@@ -57,7 +57,7 @@
             "information": "SHEIN uses few eco-friendly materials. There is no evidence that it has taken meaningful action to reduce or eliminate hazardous chemicals. There is no evidence it reduces its carbon and other greenhouse gas emissions in its supply chain. There is no evidence it has a policy to minimise the impacts of microplastics. None of its supply chain is certified by labour standards which ensure worker health and safety, living wages or other labour rights. There is no evidence it ensures payment of a living wage in its supply chain. It does not disclose adequate policies or safeguards to protect suppliers and workers in its supply chain from the impacts of COVID-19."
         },
         {
-            "id": 2,
+            "id": 7,
             "company": "Veja",
             "imgage": "https://www.veja-store.com/media/catalog/product/cache/527447f8cffec2edb3591f96240a2d24/v/q/vq0702597_1.jpg",
             "price": "$195",
@@ -66,7 +66,7 @@
             "information": "VEJA uses a medium proportion of eco-friendly materials including organic cotton. It uses recycled packaging. Its tanneries are gold certified by the Leather Working Group. Its use of eco-friendly materials reduces its climate impact and limits the amount of chemicals, water and wastewater used in production. Veja has a Code of Conduct that covers all of the ILO Four Fundamental Freedoms principles. It monitors health and safety issues by visiting all of its final stage of production suppliers. It ensures payment of a living wage in most of its supply chain. It traces all of its supply chain."
         },
         {
-            "id": 3,
+            "id": 8,
             "company": "Prada",
             "imgage": "https://www.prada.com/content/dam/pradabkg_products/1/1U7/1U749M/B4LF0002/1U749M_B4L_F0002_F_B055_SLR.jpg/jcr:content/renditions/cq5dam.web.hebebed.1500.1500.crop.jpg",
             "price": "$1320",
@@ -75,7 +75,7 @@
             "information": "Prada uses some eco-friendly materials including recycled materials. There is no evidence it minimises textile waste when manufacturing its products. It complies with its own Restricted Substances List but there is no evidence it has taken meaningful action to eliminate hazardous chemicals. There is no evidence it implements water reduction initiatives. Most of its final stage of production is undertaken in Italy, a medium risk country for labour abuse. There is no evidence it ensures payment of a living wage in its supply chain. It discloses partial policies and safeguards to protect suppliers from the impacts of COVID-19 but not workers."
         },
         {
-            "id": 4,
+            "id": 9,
             "company": "Goodwill",
             "imgage": "https://www.goodwillfinds.com/dw/image/v2/BGVZ_PRD/on/demandware.static/-/Sites-goodwill-master/default/dwa5be5547/images/large/lPPg89hiI6ikAD1o3qOLol8/2022/November/28/1.(11).jpeg?q=80&strip=false",
             "price": "$30",
@@ -84,7 +84,7 @@
             "information": "Goodwill encourages secondhand purchasing, which reduces the number of natural resources being used, the amount of energy used, and pollution that’s being emitted. When it comes to textiles and clothing, about 50% of energy input to the textile industry is lost onsite. And manufacturing new furniture generates 100 times more greenhouse gases as refinishing does. Buying secondhand goods means you’re not creating a demand for new items that require additional energy or deplete even more natural resources. Goodwill has been known to exploit their workers for minimum wage, however."
         }, 
         {
-            "id": 5,
+            "id": 10,
             "company": "Doc Martens",
             "imgage": "https://i1.adis.ws/i/drmartens/24687001.80.jpg?$large$",
             "price": "$200",

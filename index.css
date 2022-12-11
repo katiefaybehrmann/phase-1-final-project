@@ -10,7 +10,7 @@
 
 .card {
     text-align: center;
-    border: grey solid 1px;
+    border: grey solid 2px;
     padding: 1rem;
     width: 15rem;
     height: 25rem;
@@ -41,7 +41,8 @@
     font: inherit;
     display: inline;
     font-weight: 600;
-    padding: 0.6rem 2rem;
+    padding: 0.3rem 1.5rem;
+    margin-right: 0.2rem;
     background: #eb37f1;
     color: currentcolor;
     transition: background 100ms ease;
