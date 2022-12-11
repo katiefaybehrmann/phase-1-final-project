@@ -2,7 +2,7 @@
 
 ## Description
 
-Shop Conscious is a project that allows consumers to shop and compare clothing form different brands with environmental and labor practice transparency data available. Consumers can then use their knowledge of the brand along with their personal values to shop different items.
+Shop Conscious is a project that allows consumers to shop and compare clothing from different brands with environmental and labor practice data transparently available. Consumers can then use their knowledge of the brand along with their personal values to shop or reject different items.
 
 ## Project features and requirements
 
