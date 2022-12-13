@@ -40,6 +40,7 @@ function buttonMaker(parent, x) {
 
 
 function getClothes(genre) {
+  itemList.innerHTML =``;
   fetch(`http://localhost:3000/${genre}`)
     .then((res) => res.json())
     .then((clothingData) => clothingData.forEach(item =>
@@ -49,6 +50,7 @@ function getClothes(genre) {
 }
 
 function renderClothes(item) {
+  
   let card = document.createElement('li')
 
   card.className = "card"
