@@ -37,10 +37,12 @@ function buttonMaker(parent, x) {
 
 }
 
-
+function clearChildren(parent){
+  parent.innerHTML=``;
+}
 
 function getClothes(genre) {
-  itemList.innerHTML =``;
+  clearChildren(itemList)
   fetch(`http://localhost:3000/${genre}`)
     .then((res) => res.json())
     .then((clothingData) => clothingData.forEach(item =>
