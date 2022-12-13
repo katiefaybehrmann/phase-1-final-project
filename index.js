@@ -24,14 +24,12 @@ function buttonMaker(parent, x) {
 
   btn.addEventListener("click", () => {
     parent.removeChild(x)
-    btnList.removeChild(btn)
-    btnList.removeChild(likebtn)
+    clearChildren(btnList)
   })
 
   likebtn.addEventListener("click", ()=>{
     parent.removeChild(x)
-    btnList.removeChild(btn)
-    btnList.removeChild(likebtn)
+    clearChildren(btnList)
     wishList.appendChild(x)
   })
 
